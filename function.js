@@ -1,4 +1,3 @@
-<script>
         // Add button functionality
         document.getElementById('addBtn').addEventListener('click', function() {
             const num1 = parseFloat(document.getElementById('num1').value) || 0;
@@ -23,4 +22,3 @@
                 alert('Exit button clicked - this would close the window in a desktop application');
             }
         });
-    </script>
